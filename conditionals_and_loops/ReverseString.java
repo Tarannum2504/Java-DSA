@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class ReverseString {
     static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the String:");
+        System.out.println("Enter the Strings:");
         String s = sc.next();
         String newString = "";
         for (int i = s.length() - 1 ; i >=0; i--) {

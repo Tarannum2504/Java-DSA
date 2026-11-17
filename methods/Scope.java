@@ -20,7 +20,7 @@ public class Scope {
 
         // 2. Block scope
         {
-//            String name = "Ishara";  // can't initialize it again
+//            Strings name = "Ishara";  // can't initialize it again
             name = "Ishara"; //we can change the string here
             System.out.println(name);
 
